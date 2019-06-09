@@ -88,7 +88,7 @@
               <div class="card-body">
                 <p class="card-text cr">Saatnya Bagikan Kebahagiaanmu</p>
                 <h5 class="card-title">Menulis Sekarang</h5>
-                <a class="btn btn-info btn-lg btn-md b1 btns" href="#" role="button">Buat Tulisan</a>
+                <a class="btn btn-info btn-lg btn-md b1 btns" data-toggle="modal" data-target="#form" href="#" role="button">Buat Tulisan</a>
               </div>
       </div>
     </div>
@@ -138,7 +138,7 @@
       <h1 class="teka"><u>LKSA RESTU IBU</u></h1>
       <p class="teka"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, commodi, pariatur debitis ea velit iure at vitae fuga mollitia eum vero voluptates corporis ab sequi natus recusandae, autem explicabo? Ratione! 
       </p>
-      <a class="btn btn-info btn-lg btn-md btns" href="#" role="button">Donasi</a>
+      <a class="btn btn-info btn-lg btn-md btns" data-toggle="modal" data-target="#glassAnimals" href="#" role="button">Donasi</a>
     </div>
     </div>
     </div>
@@ -179,6 +179,62 @@
     </div>
   </div>
 </div>
+
+<!-- modal donasi -->
+<div class="modal fade mdl" id="glassAnimals" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header mdl mds">
+        <h5 class="modal-title mdl" id="exampleModalLabel">Donasi</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="img/heart.svg" width="120px" height="120px"> <br>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe vel quam suscipit veritatis tenetur? Harum officia enim magnam dolorem in nisi repellat, doloribus ducimus! Reiciendis ipsam debitis doloribus minima?
+      </div>
+      <div class="modal-footer mdl">
+        <button type="button" class="btn btn-secondary btns mdl" data-dismiss="modal">Terima Kasih</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal tambah artikel -->
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0 mds mdl">
+          <h5 class="modal-title" id="exampleModalLabel">Tambah Artikel</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="judul">judul artikel</label>
+              <input type="text" class="form-control" id="judul1" aria-describedby="judul" placeholder="Judul Artikel">
+            </div>
+            <div class="form-group">
+              <label for="tanggal">tanggal terbit</label>
+              <input type="datetime" class="form-control" id="tgl" placeholder="Tanggal Terbit">
+            </div>
+            <div class="form-group">
+              <label for="penulis">Penulis</label>
+              <input type="text" class="form-control" id="pnl" placeholder="Penulis">
+            </div>
+            <label for="deskripsi">Deskripsi</label>
+            <textarea class="form-control" id="deskripsi" placeholder="Deskripsi"></textarea>
+          </div>
+          <div class="modal-footer border-top-0 d-flex justify-content-center">
+            <button type="submit" class="btn btn-success btns">Terbitkan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
