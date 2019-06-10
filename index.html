@@ -18,10 +18,10 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item active gm">
-          <a class="nav-link gm" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link gm" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item gm">
-          <a class="nav-link gm" href="#">Article</a>
+          <a class="nav-link gm" href="article.html">Article</a>
         </li>
         <li class="nav-item gm">
           <a class="nav-link gm" href="#">Kegiatan Panti</a>
@@ -29,8 +29,6 @@
         <li class="nav-item gm">
           <a class="nav-link gm" href="#">Donasi</a>
         </li>
-        <!-- <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm" role="button">Login</a>
-         -->
          <a class="btn btn-info btn-lg btn-md gm btns" href="#" data-toggle="modal" data-target="#modalLoginForm" role="button">Login</a>
       </ul>
     </div>
@@ -94,12 +92,12 @@
     </div>
     <hr>
   </div>
-  <div class="card mb-3 crd b1">
+  <div class="card lg-3 crd b1">
     <div class="row">
       <div class="col-md-4">
-        <img src="img/banner.jpg" class="card-img" alt="Banner">
+        <img src="img/banner.jpg" class="card-img" width="250px" height="400px" alt="Banner">
       </div>
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <div class="card-body">
           <h5 class="card-title"> <img src="img/star.svg" class="imgs">Ramadhan Suriah</h5>
           <p class="card-text">membuat sebuah tulisan</p>
@@ -127,7 +125,7 @@
       </div>
     </div>
   </div>
-  <a class="btn btn-info btn-lg btn-md b2 btns" href="#" role="button">Lihat Lebih Banyak</a>
+  <a class="btn btn-info btn-lg btn-md b1 b2 btns" href="#" role="button">Lihat Lebih Banyak</a>
  </div>
 
   <!-- //Donasi -->
@@ -143,7 +141,7 @@
     </div>
     </div>
     </div>
-  
+  <!-- footer -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="https://mdbootstrap.com/education/bootstrap/"> UcupsTeam All Rights Reserved</a>
       </div>
@@ -162,14 +160,12 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">username</label>
+          <input type="text" id="username" class="form-control validate" placeholder="Username">
         </div>
 
         <div class="md-form mb-4">
           <i class="fas fa-lock prefix grey-text"></i>
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">password</label>
+          <input type="password" id="defaultForm-pass" class="form-control validate" placeholder="Password">
         </div>
 
       </div>
@@ -212,20 +208,17 @@
           </button>
         </div>
         <form>
-          <div class="modal-body">
+          <div class="modal-body mdl">
+            <img src="img/browser.svg" height="120px" width="120px" class="mdl">
             <div class="form-group">
-              <label for="judul">judul artikel</label>
               <input type="text" class="form-control" id="judul1" aria-describedby="judul" placeholder="Judul Artikel">
             </div>
             <div class="form-group">
-              <label for="tanggal">tanggal terbit</label>
               <input type="datetime" class="form-control" id="tgl" placeholder="Tanggal Terbit">
             </div>
             <div class="form-group">
-              <label for="penulis">Penulis</label>
               <input type="text" class="form-control" id="pnl" placeholder="Penulis">
             </div>
-            <label for="deskripsi">Deskripsi</label>
             <textarea class="form-control" id="deskripsi" placeholder="Deskripsi"></textarea>
           </div>
           <div class="modal-footer border-top-0 d-flex justify-content-center">
