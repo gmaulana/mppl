@@ -116,3 +116,38 @@
   margin-left: 30px;
   color: black;
 }
+
+.btns {
+  background-color: #4aa86b;
+}
+
+.mdl {
+  text-align: center;
+}
+
+.mds {
+  background-color: #4aa86b;
+  color: white;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mn {
+  margin-top: -190px;
+}
+
+.pg {
+  margin-left: 620px;
+}
+
+.hh {
+  height:1px; border:none; color:#000; background-color:#000;
+}
