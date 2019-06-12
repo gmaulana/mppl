@@ -34,11 +34,13 @@
    
   /* Image for Parallax Section */ 
   .paralsec {
-  background-image: url("img/cover.jpg");
+  background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url("img/cover.jpg");
   }
    
   .paralsec1 {
-  background-image: url("img/cover2.jpg");
+  background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url("img/cover2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   }
    
   .paralsec2 {
@@ -57,6 +59,8 @@
   color: white;
   background-color: #607D8B;
   border-top: .05rem solid #e5e5e5;
+  background: -webkit-linear-gradient(to right, #9E9AB4, #242134); 
+  background: linear-gradient(to right, #9E9AB4, #242134);
   }
    
   .wn-footer a {
@@ -150,4 +154,8 @@
 
 .hh {
   height:1px; border:none; color:#000; background-color:#000;
+}
+
+.mnt {
+  color: #000;
 }
